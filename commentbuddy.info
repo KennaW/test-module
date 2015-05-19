@@ -1,0 +1,5 @@
+name = commentbuddy
+description = A helper for comments.
+package = Epicodus Examples
+core = 7.x
+files[] = commentbuddy.module

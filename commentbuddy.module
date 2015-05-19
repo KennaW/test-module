@@ -1,0 +1,12 @@
+<?php
+    function commentbuddy_comment_update(){
+        drupal_set_message("Thanks for fixing your spelling!");
+    }
+
+    function commentbuddy_comment_insert() {
+        drupal_set_message("You have commented on this post. Congrats.");
+    }
+
+    function commentbuddy_comment_delete() {
+        drupal_set_message("You have deleted your comment.");
+    }
